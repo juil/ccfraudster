@@ -61,7 +61,9 @@ Plot multiple card holders' credit card transactions on a log scale to visually 
 ![Combined scatter plot.](images/combined_cc_tx.png) 
 *(Used a scatter plot on a log scale to better visualize patterns in spending amounts.)*
 
+The primary difference in the consumption patters is that card holder #18 (red) will occasionally make expensive purchases, whereas #2 (blue) does not.
 
+This doesn't necessarily indicate any sort of fraud. More analysis must be done.
 
 2. Plot CEO's Transactions as Box Plot
 
