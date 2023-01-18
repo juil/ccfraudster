@@ -18,20 +18,16 @@ Plot 6 months of CEO's credit card transactions to look for fraud.
 
 ![Box plot of monthly transactions](images/ceo_tx.png)
 
+## Code 
+
+[visual_data_analysis.ipynb](visual_data_analysis.ipynb)
+
 ## Schema
 
 ![ERD Diagram](images/schema.png)
 
 Exported with [QuickDBD](https://app.quickdatabasediagrams.com/#/d/8JR3xd)
 [schema.sql](data/schema.sql)
-
-## Files 
-
-### Code 
-
-[challenge.ipynb](challenge.ipynb])
-
-[visual_data_analysis.ipynb](visual_data_analysis.ipynb)
 
 ### Data 
 
