@@ -4,6 +4,14 @@
 
 Import credit card transaction records and run analysis to evaluate for fraudulent activity.
 
+## Results
+
+### Plot Credit Card Transactions
+
+Plot multiple card holders' credit card transactions on a log scale to visually see distribution of transactions.
+
+![Combined scatter plot.](images/combined_cc_tx.png) 
+
 ## Schema
 
 ![ERD Diagram](images/schema.png)
