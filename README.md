@@ -70,6 +70,14 @@ This doesn't necessarily indicate any sort of fraud. More analysis must be done.
 Plot 6 months of CEO's credit card transactions to look for fraud.
 
 ![Box plot of monthly transactions](images/ceo_tx.png)
+*(Log scale used for better visualization of data.)
+
+There are a total of 9 outliers for cardholder #25 and an average of 1.5 per month.
+
+The main anomoly that shows up in the plot is that #25 seems to be an overall frugal spender, but there are quite a few big purchases, expecially in April and June.
+
+However, 6 months is not enough time to check for anmolies. Ideally the time frame will be over a year.
+
 
 #### Code 
 
