@@ -41,4 +41,5 @@ Seed data: [`data/`](data/)
 
 
 ## Notes
-1. Starter files provided by UofT. 
+1. Starter code and seed data provided by UofT. 
+2. ERD and schema created in QuickDBD.
