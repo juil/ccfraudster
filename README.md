@@ -21,7 +21,9 @@ Exported with [QuickDBD](https://app.quickdatabasediagrams.com/#/d/8JR3xd)
 
 ### Data 
 
-[`/data`](/data)
+Postgres Database: [`data/fraud_detection-db.sql`](data/fraud_detection-db.sql`)
+
+[`data/`](data/)
 
 ## Notes
 1. Starter files provided by UofT. 
