@@ -12,6 +12,12 @@ Plot multiple card holders' credit card transactions on a log scale to visually 
 
 ![Combined scatter plot.](images/combined_cc_tx.png) 
 
+### Plot CEO's Transactions as Box Plot
+
+Plot 6 months of CEO's credit card transactions to look for fraud.
+
+![Box plot of monthly transactions](images/ceo_tx.png)
+
 ## Schema
 
 ![ERD Diagram](images/schema.png)
