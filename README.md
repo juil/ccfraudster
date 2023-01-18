@@ -9,6 +9,8 @@ Import credit card transaction records and run analysis to evaluate for fraudule
 ### Data Analysis 
 #### Part 1
 
+**Queries:** [data_analysis.sql](query/data_analysis.sql)
+
 1. Transactions Less Than $2
 
 |cardholder_id|tx_lessthan2|
@@ -64,7 +66,7 @@ Seed data: [`data/`](data/)
 
 ### Queries
 
-[visual_data_analysis.sql](visual_data_analysis.sql)
+[visual_data_analysis.sql](query/visual_data_analysis.sql)
 
 
 ## Notes
