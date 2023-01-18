@@ -37,7 +37,7 @@ Seed data: [`data/`](data/)
 
 ### Queries
 
-[query.sql](data/query.sql)
+[visual_data_analysis.sql](visual_data_analysis.sql)
 
 
 ## Notes

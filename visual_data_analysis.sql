@@ -1,8 +1,8 @@
 -- Unit 07 Assignment
+-- visual_data_analysis.ipynb
 -- Query db: fraud_detection
 
 -- Get all transactions for user ID 2 & 18
-
 select cc.cardholder_id, tx.*
 from "transaction" tx
 left join credit_card cc ON cc.card=tx.card
