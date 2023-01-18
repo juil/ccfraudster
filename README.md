@@ -25,7 +25,7 @@ Import credit card transaction records and run analysis to evaluate for fraudule
 
 While having a high number of transactions under $2 raises an eyebrow, it is not so indicative of fraudulent activity when counted over such a long period of time.
 
-2. Transactions Made 07:00-09:00
+2. Top Transactions Made 07:00-09:00
 
 |id|date|amount|card|
 |--|----|------|----|
@@ -36,6 +36,8 @@ While having a high number of transactions under $2 raises an eyebrow, it is not
 |968|2018-09-26 08:48:40.000|1060.00|4761049645711555811|
 |1368|2018-09-06 08:28:55.000|1017.00|4761049645711555811|
 |1620|2018-03-26 07:41:59.000|1009.00|30181963913340|
+
+Credit cards 4761 and 5570 both have multiple $1000+ transactions between 07:00-09:00. This is suspicious because the types of stores that carry such high-ticket items would not be open at this time of the day. 
 
 ### Plot Credit Card Transactions
 
