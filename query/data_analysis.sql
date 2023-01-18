@@ -26,3 +26,18 @@ order by amount desc
 fetch first 100 rows only;
 	
 select * from between_7_9;
+
+-- Create View: Top 5 merchants prone to being hacked by small transactions
+DROP VIEW hxd_merchants;
+
+create view hxd_merchants as
+select m."name" as merchant_name, count(tx.id) as tx_lt2_count 
+from "transaction" tx 
+left join merchant m on m.id = tx.id_merchant 
+left join merchant_category mc on m.id_merchant_category = mc.id 
+where tx.amount < 2
+group by m."name"
+order by tx_lt2_count desc;
+
+select * from hxd_merchants 
+fetch first 20 rows only;

@@ -39,6 +39,20 @@ While having a high number of transactions under $2 raises an eyebrow, it is not
 
 Credit cards 4761 and 5570 both have multiple $1000+ transactions between 07:00-09:00. This is suspicious because the types of stores that carry such high-ticket items would not be open at this time of the day. 
 
+3. Top Merchants Prone to Being Hacked Using Small Transactions
+
+|merchant_name|tx_lt2_count|
+|-------------|------------|
+|Wood-Ramirez|7|
+|Baker Inc|6|
+|Hood-Phillips|6|
+|Sweeney-Paul|5|
+|Greene-Wood|5|
+|Hamilton-Mcfarland|5|
+|Riggs-Adams|5|
+
+The top 5 merchants with high transactions less than $2 are Wood-Ramirez, Baker Inc, Hood-Phillips, and several merchants tied for 4th place including Sweeney-Paul, Greene-Wood, and Hamilton-Mcfarland.
+
 ### Plot Credit Card Transactions
 
 Plot multiple card holders' credit card transactions on a log scale to visually see distribution of transactions.
