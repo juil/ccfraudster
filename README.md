@@ -4,10 +4,9 @@
 
 Import credit card transaction records and run analysis to evaluate for fraudulent activity.
 
-## Results
+## Data Analysis Results
 
-### Data Analysis 
-#### Part 1
+### Part 1
 
 **Queries:** [data_analysis.sql](query/data_analysis.sql)
 
@@ -53,36 +52,36 @@ Credit cards 4761 and 5570 both have multiple $1000+ transactions between 07:00-
 
 The top 5 merchants with high transactions less than $2 are Wood-Ramirez, Baker Inc, Hood-Phillips, and several merchants tied for 4th place including Sweeney-Paul, Greene-Wood, and Hamilton-Mcfarland.
 
-### Plot Credit Card Transactions
+### Part 2: Plot Credit Card Transactions
 
-Plot multiple card holders' credit card transactions on a log scale to visually see distribution of transactions.
+1. Plot multiple card holders' credit card transactions on a log scale to visually see distribution of transactions.
 
 ![Combined scatter plot.](images/combined_cc_tx.png) 
 
-### Plot CEO's Transactions as Box Plot
+2. Plot CEO's Transactions as Box Plot
 
 Plot 6 months of CEO's credit card transactions to look for fraud.
 
 ![Box plot of monthly transactions](images/ceo_tx.png)
 
-## Code 
+#### Code 
 
 [visual_data_analysis.ipynb](visual_data_analysis.ipynb)
 
-### Schema
+#### Schema
 
 ![ERD Diagram](images/schema.png)
 
 Exported with [QuickDBD](https://app.quickdatabasediagrams.com/#/d/8JR3xd)
 [schema.sql](data/schema.sql)
 
-### Database 
+#### Database 
 
 Postgres Database: [`data/fraud_detection-db.sql`](data/fraud_detection-db.sql`)
 
 Seed data: [`data/`](data/)
 
-### Queries
+#### Queries
 
 [visual_data_analysis.sql](query/visual_data_analysis.sql)
 
