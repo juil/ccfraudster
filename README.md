@@ -23,6 +23,8 @@ Import credit card transaction records and run analysis to evaluate for fraudule
 |16|19|
 |18|19|
 
+While having a high number of transactions under $2 raises an eyebrow, it is not so indicative of fraudulent activity when counted over such a long period of time.
+
 2. Transactions Made 07:00-09:00
 
 |id|date|amount|card|
