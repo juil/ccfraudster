@@ -1,6 +1,10 @@
-# Credit Card Fraudster
+# ccfraudster - Credit Card Fraud Detection
 
 ### Unit 7 Assignment by Juil for UofT Fintech Bootcamp
+
+Import credit card transaction records and run analysis to evaluate for fraudulent activity.
+
+## Schema
 
 ## Files 
 
