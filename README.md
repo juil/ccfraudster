@@ -6,6 +6,11 @@ Import credit card transaction records and run analysis to evaluate for fraudule
 
 ## Schema
 
+![ERD Diagram](images/schema.png)
+
+Exported with [QuickDBD](https://app.quickdatabasediagrams.com/#/d/8JR3xd)
+[schema.sql](data/schema.sql)
+
 ## Files 
 
 ### Code 
