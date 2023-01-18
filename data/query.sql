@@ -1,3 +1,5 @@
+-- Unit 07 Assignment
+-- Query db: fraud_detection
 
 -- Get all transactions for user ID 2 & 18
 
