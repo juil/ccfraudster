@@ -54,9 +54,14 @@ The top 5 merchants with high transactions less than $2 are Wood-Ramirez, Baker 
 
 ### Part 2: Plot Credit Card Transactions
 
-1. Plot multiple card holders' credit card transactions on a log scale to visually see distribution of transactions.
+1. Plot VIP Transactions
+
+Plot multiple card holders' credit card transactions on a log scale to visually see distribution of transactions.
 
 ![Combined scatter plot.](images/combined_cc_tx.png) 
+*(Used a scatter plot on a log scale to better visualize patterns in spending amounts.)*
+
+
 
 2. Plot CEO's Transactions as Box Plot
 
