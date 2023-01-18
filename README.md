@@ -22,14 +22,14 @@ Plot 6 months of CEO's credit card transactions to look for fraud.
 
 [visual_data_analysis.ipynb](visual_data_analysis.ipynb)
 
-## Schema
+### Schema
 
 ![ERD Diagram](images/schema.png)
 
 Exported with [QuickDBD](https://app.quickdatabasediagrams.com/#/d/8JR3xd)
 [schema.sql](data/schema.sql)
 
-### Data 
+### Database 
 
 Postgres Database: [`data/fraud_detection-db.sql`](data/fraud_detection-db.sql`)
 
