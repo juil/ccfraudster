@@ -106,3 +106,5 @@ Seed data: [`data/`](data/)
 ## Notes
 1. Starter code and seed data provided by UofT. 
 2. ERD and schema created in QuickDBD.
+3. When opening `.ipynb` file in VS Code, sometimes the plots do not generate correctly despite the code executing without issue. Cause unknown.
+4. When running `.ipynb` file in Jupyter Lab, python sometimes is unable to find `conda` installed libraries despite the kernel being correctly selected. Cause unknown.
