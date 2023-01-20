@@ -83,6 +83,8 @@ However, 6 months is not enough time to check for anmolies. Ideally the time fra
 
 [visual_data_analysis.ipynb](visual_data_analysis.ipynb)
 
+View rendered plots on [nbviewer.org](https://nbviewer.org/github/juil/ccfraudster/blob/main/visual_data_analysis.ipynb).
+
 #### Schema
 
 ![ERD Diagram](images/schema.png)
